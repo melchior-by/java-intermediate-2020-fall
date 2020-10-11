@@ -1,4 +1,4 @@
-package com.ekids.javaintermediate2020fall;
+package com.ekids.javaintermediate2020fall.lesson1;
 
 import java.util.ArrayList;
 import java.util.List;
