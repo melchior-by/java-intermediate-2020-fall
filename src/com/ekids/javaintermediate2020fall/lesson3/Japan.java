@@ -16,6 +16,4 @@ public class Japan extends Country implements DevelopedCountry {
             System.out.println("This country is popular");
         }
     }
-
-
 }
