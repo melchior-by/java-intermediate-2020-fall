@@ -48,4 +48,13 @@ public class Country {
     public void printRating(Integer nobelPrizeWinners) {
         System.out.println((gdp / population) * nobelPrizeWinners);
     }
+
+    @Override
+    public String toString() {
+        return "Country{" +
+                "name='" + name + '\'' +
+                ", gdp=" + gdp +
+                ", population=" + population +
+                '}';
+    }
 }

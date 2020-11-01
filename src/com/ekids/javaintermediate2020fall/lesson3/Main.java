@@ -38,5 +38,6 @@ public class Main {
         Country japan1900 = new Japan("Nihongo", 5_888_000.0, 65_960_000);
         japan1900.printRating(55.2);
         ((Japan) japan1900).isAnime();
+        System.out.println(japan1900.toString());
     }
 }
